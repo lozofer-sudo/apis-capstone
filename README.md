@@ -270,9 +270,9 @@ By combining a central orchestrator, specialized sub-agents, skill-based routing
 The architecture is fully extensible and can be adapted to other enterprise workflows such as underwriting, claims processing, and logistics optimization.
 ________________________________________
 🎓 About the Author
-Supply Chain & Corporate Strategy Executive | AI Systems Architect
-20+ years leading international P&L operations, FP&A transformation, and cross-functional IT governance.
-Open to: Advisory roles, corporate positions, strategic consulting, AI-driven operations — and conversations with anyone exploring this space.
-________________________________________
+Supply Chain, Corporate Strategy, FP&A | AI Solutions Translator
+20+ years of experience in Supply Chain, Corporate Strategy, FP&A with enterprise procedures alongside IT teams.
+Open to: Advisory roles, corporate positions, strategic consulting, AI-driven operations — and conversations with anyone exploring this space.________________________________________
 📜 License
 MIT — For educational and demonstration purposes.
+
