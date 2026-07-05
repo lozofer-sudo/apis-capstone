@@ -1,0 +1,15 @@
+[project]
+name = "procurement-intelligence-agent"
+version = "2025.1.0"
+description = "AI Agent for procurement optimization"
+requires-python = ">=3.11"
+dependencies = [
+    "google-adk>=2.0.0",
+    "google-genai",
+    "pandas",
+    "numpy",
+    "nest_asyncio",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "semgrep", "pre-commit"]

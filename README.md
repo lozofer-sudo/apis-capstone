@@ -2,6 +2,15 @@ Autonomous Procurement Intelligence System (APIS)
 Zero-Cost Enterprise-Grade Procurement Automation
 Built Under Budget Constraints with Full Emulation of Enterprise Components
 ________________________________________
+> **Environment Note:** This repository contains the **local CPU version** of the capstone project, adapted from the original Kaggle notebook for standalone GitHub execution. The interactive Kaggle version (with live widgets and Kaggle Secrets integration) remains available at: https://www.kaggle.com/code/wiltonjarms/notebookb6dc356aa2
+
+> **Key adaptations for GitHub/local use:**
+> - Kaggle-specific paths (`/kaggle/input/`, `/kaggle/working/`) replaced with relative paths (`./data/`, `./`)
+> - `kagglehub` import wrapped in `try/except` for graceful fallback
+> - `UserSecretsClient()` replaced with `os.getenv()` for cross-platform compatibility
+> - All runtime-generated files (Makefile, AGENTS.md, skills, etc.) pre-created for out-of-the-box execution
+> - Zero external API calls — fully deterministic execution
+________________________________________
 Live Demo
 Run this notebook on Kaggle: https://www.kaggle.com/code/wiltonjarms/notebookb6dc356aa2
 ________________________________________

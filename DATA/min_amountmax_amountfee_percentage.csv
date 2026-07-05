@@ -1,0 +1,4 @@
+min_amount,max_amount,fee_percentage
+0,10000,1.5
+10001,15000,1.0
+15001,999999,0.5

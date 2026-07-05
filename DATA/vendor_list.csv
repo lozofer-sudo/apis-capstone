@@ -1,0 +1,4 @@
+Vendor_ID,Vendor_Name,Currency,Payment_Terms_Days,Early Pmt,Early P Disc
+VEND-001,Global Materials Inc.,USD,30,5,2.3
+VEND-002,Quality Materials Ltd.,JPY,45,8,1.4
+VEND-003,Precision Materials Co.,CHF,60,10,0.5

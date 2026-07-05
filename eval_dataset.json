@@ -1,0 +1,35 @@
+{
+  "cases": [
+    {
+      "case_id": "procure_basic_001",
+      "input_prompt": "Procure MAT-001 for week 1",
+      "expected_skill": "procurement-workflow",
+      "expected_tools": [
+        "inventory_tool",
+        "vendor_tool",
+        "tco_tool",
+        "risk_tool"
+      ],
+      "expected_output_contains": [
+        "Best Vendor",
+        "Total Cost",
+        "Risk Level"
+      ],
+      "trajectory_mode": "IN_ORDER"
+    },
+    {
+      "case_id": "fx_risk_002",
+      "input_prompt": "Check FX risk for vendor V001",
+      "expected_skill": "fx-risk-assessor",
+      "expected_tools": [
+        "fx_tool",
+        "risk_tool"
+      ],
+      "expected_output_contains": [
+        "volatility",
+        "risk level"
+      ],
+      "trajectory_mode": "ANY_ORDER"
+    }
+  ]
+}

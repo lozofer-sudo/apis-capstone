@@ -1,0 +1,4 @@
+vendor_id,Material_ID,Transport_Cost_Per_Unit_EUR,Default_Tax_Percentage,Insurance_Percentage
+VEND-001,MAT-001,5.00,10,2
+VEND-002,MAT-001,4.50,12,2.5
+VEND-003,MAT-001,3.00,8,1.5

@@ -146,9 +146,21 @@ cython_debug/
 /kaggle/temp/
 /kaggle/input/
 
-# Project specific
+# ============================================
+# PROJECT DATA
+# Keep project datasets in repo so judges can run code
+# ============================================
+
+# Exclude all CSVs outside data/ folder
 *.csv
-data/
+
+# Allow data/ folder and its CSV contents
+!data/
+!data/*.csv
+
+# ============================================
+# PROJECT SPECIFIC RUNTIME ARTIFACTS
+# ============================================
 *.log
 *.jsonl
 audit.log
